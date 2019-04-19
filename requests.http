@@ -1,0 +1,18 @@
+###
+# Default Route
+GET http://localhost:4001/
+
+###
+# Get all movies/tickets
+GET http://localhost:4001/api/tickets
+
+###
+# Create movie
+POST http://localhost:4001/api/tickets
+Content-Type: application/json
+
+{
+  "movieName": "test",
+  "description": "test test 123",
+  "price": "5"
+}
